@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Form</title>
+	  <style>
+	  input[type="text"],  input[type="number"],  input[type="checkbox"], textarea, select
+	  {
+	  border-radius:5px;
+	  
+	  }
+	   input[type="reset"],  input[type="Button"],  input[type="submit"]
+	   {
+	   background-color:black;
+	   color:white;
+	 	   }
+	  body
+	  {
+	   background-image:linear-gradient(to right,rgb(190,120,150),rgb(190,50,90),rgb(190,100,130));
+	  }
+	  .h1
+	  {
+	  text-align:center;
+	  font-size:30px;
+	  font-weight:bold;
+	  }
+	 label
+	 {
+	 font-weight:bold;
+	 font-size:20px;
+	 }
+	 td
+	 {
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 
+	 }
+	 
+	 .cont
+	 {
+		border-style:solid;
+		border-width:1px;
+		width:60%;
+		padding-top:30px;
+		border-top-right-radius:200px;
+		border-bottom-left-radius:200px;
+		box-shadow:15px 15px 10px black;
+	 }
+	 
+	  </style>
+	
+	</head>
+	<body>
+	<center>
+	<div class="cont">
+	<div class="h1">
+	<h>Registration Form</h>
+	</div>  
+	
+	
+	
+	  
+	  <form>
+        <table border="0">
+		  <tr>
+	         
+			 <td><label> Full Name</label></td>
+			 <td>
+			 <input type="text" name="Fname" placeholder="First Name">
+			 </td>
+             <td>			 
+			 <input type="text" name="Fname" placeholder="Middle Name">
+             </td>
+			 <td> 
+			 <input type="text" name="Fname" placeholder="last Name">
+             </td>	 
+			  
+		  </tr>
+
+		  <tr>		
+		<td>
+		<label> User Name</label>
+		</td>
+		<td colspan="3">
+		<input type="text" name="Fname" placeholder="Enter user name"size="75px" required>
+    	</td>		
+		</tr>
+		
+
+		<tr>	
+		<td>
+		<label> Password</label>
+		</td>
+		<td colspan="3">
+		<input type="password" name="Fname" placeholder="Enter password"size="75px">
+    	</td>
+        </tr>		
+
+		<tr>	
+		<td >
+		<label> Adderess</label>
+		</td>
+		<td colspan="3">
+		<textarea name="Fname" placeholder="Enter adderss"cols="57.5px"></textarea>
+    	</td>
+        </tr>
+
+		<tr>	
+		<td>
+		<label>Mobile No</label>
+		</td>
+		<td colspan="3">
+		<input type="number" name="Fname" placeholder="Enter mobile no" style="width:475px;">
+    	</td>
+        </tr>	
+        
+		<tr>	
+		<td>
+		<label>Gender</label>
+		</td>
+		<td >
+		<input type="radio" name="Fname" value="F">Female
+    	</td>
+		<td>
+		<input type="radio" name="Fname" value="M">Male
+        </td>
+		</tr>	
+
+		<tr>	
+		<td>
+		<label>Adhar No</label>
+		</td>
+		<td colspan="3">
+		<input type="text" name="Fname" placeholder="Enter adhar no" style="width:475px;">
+    	</td>
+        </tr>	
+ 
+        <tr>	
+		<td>
+		<label>Cast</label>
+		</td>
+		<td colspan="3">
+		<select style="width:475px;">
+		<option value="open">------------------------------------------------Select Cast------------------------------------------------</option>
+		<option value="open">Open</option>
+		<option value="obc">OBC</option>
+		<option value="nt">NT</option>
+		<option value="st">ST</option>
+		<option value="sc">SC</option>
+		</select>
+		
+    	</td>
+        </tr>
+
+		<tr>	
+		<td>
+		<label>Course</label>
+		</td>
+		<td colspan="1">
+		<input type="checkbox" name="Fname" value="html">Web design<br/>
+    
+	   <input type="checkbox" name="Fname" value="html">Web development<br/>
+	   
+		<input type="checkbox" name="Fname" value="CSS">Card catia	<br/>
+    	</td>
+		
+		<td colspan="1">
+		<input type="checkbox" name="Fname" value="html">CNC/VMC Programing<br/>
+    
+	   <input type="checkbox" name="Fname" value="html">Industrial<br/>
+	   
+		<input type="checkbox" name="Fname" value="CSS">Embedded System<br/>
+    	</td>
+		</tr>
+		
+		<tr>
+	     	<td colspan="4"><center>
+			<input type="submit" name="sub" value="Save"/>
+			<input type="reset" name="sub" value="Reset"/>
+			<input type="Button" name="sub" value="Show"/>
+			</center></td>
+		
+		</tr>
+		
+	
+		</table>  
+	  
+	  </form>
+	  
+	  </div></center>
+	
+	
+	
+	
+	
+	</body>
+
+</html>
